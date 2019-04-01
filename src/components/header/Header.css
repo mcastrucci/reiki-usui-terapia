@@ -54,9 +54,9 @@
 
   @media only screen and (max-width: 600px) {
     .header__container{
-        background-position:right bottom;
         background-position: center;
         background-size: no-repeat;
+        clip-path: none;
     }
 
     .header__container__text{

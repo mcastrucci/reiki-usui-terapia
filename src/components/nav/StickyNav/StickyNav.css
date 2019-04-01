@@ -1,0 +1,91 @@
+
+.sticky__nav__list{
+    display: grid;
+    padding: 0;
+    width: 100%;
+    height: 80vh;
+    top: 15%;
+    position: fixed;
+    background-color: rgb(0, 0, 0, 0.8);
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+.sticky__nav__list__div p{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1rem 1rem;
+    display: inline-block;
+    margin: 1rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.sticky__nav__navigator__list__div{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3rem 5rem;
+    padding-top: 1rem;
+    justify-items: center;
+    align-items: center;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+.ch_con:hover{
+    transform: scale(1.1);
+}
+.ch_con--1:hover{
+    background-color: rgb(169, 62, 255,.5);
+}
+.ch_con--2:hover{
+    background-color: rgb(42, 144, 255,.3);
+}
+.ch_con--3:hover{
+    background-color: rgb(15, 238, 255,.3);
+}
+.ch_con--4:hover{
+    background-color: rgb(138, 255, 74,.3);
+}
+.ch_con--5:hover{
+    background-color: rgb(249, 250, 11,.3);
+}
+.ch_con--6:hover{
+    background-color: rgb(254, 161, 14,.3);
+}
+.ch_con--7:hover{
+    background-color: rgb(244, 19, 33,.3);
+}
+
+
+.sticky__nav__navigator__list__div .ch_1{
+    color: rgb(169, 62, 255);
+}
+
+
+.sticky__nav__navigator__list__div .ch_2{
+    color: rgb(42, 144, 255);
+}
+
+.sticky__nav__navigator__list__div .ch_3{
+    color: rgb(15, 238, 255);
+}
+
+.sticky__nav__navigator__list__div .ch_4{
+    color: rgb(138, 255, 74);
+}
+
+.sticky__nav__navigator__list__div .ch_5{
+    color: rgb(249, 250, 11);
+}
+
+.sticky__nav__navigator__list__div .ch_6{
+    color: rgb(254, 161, 14);
+    
+}
+
+.sticky__nav__navigator__list__div .ch_7{
+    color: rgb(244, 19, 33);
+    
+}

@@ -25,7 +25,7 @@ class Footer extends Component {
                     </div>
                     <div className="footer__top__about"> 
                         <p>
-                        Copyright (c) 2003 Company Name
+                        Copyright (c) 2003 Reiki Usui Terapia
                         All Rights Reserved
  
                         This product is protected by copyright and distributed under
