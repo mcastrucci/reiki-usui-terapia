@@ -36,8 +36,7 @@ class Footer extends Component {
                         <div>
                             <p>Contactame</p>
                         </div>
-                        <iframe src="https://www.powr.io/plugins/map/view/19172274?mode=page" frameborder='0' scrolling="no">
-                        </iframe>
+
                     </div>
                 </div>
                 <div className="footer__bottom">

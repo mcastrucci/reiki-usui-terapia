@@ -3,8 +3,8 @@
     color: white;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    height: 40vh;
+    grid-template-rows: 1fr 20%;
+    height: 60vh;
 }
 
 .footer__top{
@@ -20,15 +20,11 @@
     grid-template-rows: 1fr;
 }
 
-.footer__bottom__direction{
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-}
 
 .footer__top__social{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 30% 50%;
+    grid-template-rows: 40 50%;
 }
 
 .footer__top__social p{

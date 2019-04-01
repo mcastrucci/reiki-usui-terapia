@@ -7,11 +7,13 @@ import ch4 from './ch4_logo.png'
 import ch5 from './ch5_logo.png'
 import ch6 from './ch6_logo.png'
 import ch7 from './ch7_logo.png'
+import navigator from './navigator.png'
 
 class Nav extends Component {
     render(){
         return(
             <nav className="header__nav">
+
                 <div className="header__nav__navigator__list">
                   <div className="header__nav__navigator__list__div ch_con ch_con--1">
                     <img classname="header__nav__navigator__list__div__ch-logo" src={ch1} alt="crown logo" height="35" width="35"></img>
@@ -42,6 +44,11 @@ class Nav extends Component {
                     <div className="header__nav__navigator__list__div ch_con ch_con--7">
                     <img classname="header__nav__navigator__list__div__ch-logo" src={ch7} alt="root logo" height="30" width="30"></img>
                         <p className='ch_7'>Chakras</p>
+                    </div>
+                </div>
+                <div className="header__nav_icon">
+                    <div>
+                        <img src={navigator}></img>
                     </div>
                 </div>
         </nav>
