@@ -1,0 +1,41 @@
+.social-medias{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    position: fixed;
+    left: 2%;
+    top: 20%;
+    z-index: 1;
+    width: 4rem;
+}
+
+.social-medias img{
+    height: 4rem;
+}
+
+.social-media_button{
+    transition: 1.5s;
+}
+
+.social-media_button:hover{
+    transform: scale(1.1);
+}
+
+.social-medias__facebook{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #3b5998;
+    border-radius: 3rem;
+}
+
+.social-medias__whatsapp{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #4dc247;
+    border-radius: 3rem;
+}
+
+.social-medias__Instagram{
+    padding: 1.4rem;
+    background-color: #e95950;
+    border-radius: 3rem;
+}

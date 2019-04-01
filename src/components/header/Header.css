@@ -1,0 +1,31 @@
+.header__container{
+    height: 95vh;
+    background-image: linear-gradient(
+        to bottom,
+        rgb(156, 136, 255, 0.4),
+        rgb(40, 180, 133, 0.2)),
+        url(./hero.jpg);
+    background-size: cover;
+    background-position: left bottom;
+    clip-path: polygon(0 0,100% 0, 100% 75%, 0 100%);
+    position: relative;
+}
+
+.header__container__text{
+    margin: 0;
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    font-family: 'Merienda', cursive;
+    color: white;
+}
+
+.header__container__text__title{
+    display: block;
+    font-size: 7rem;
+}
+
+.header__container__text__secundary{
+    font-size: 3rem;
+}
+
