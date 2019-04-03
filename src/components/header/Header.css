@@ -1,14 +1,36 @@
 .header__container{
     height: 95vh;
+    background-size: cover;
+    background-position: left bottom;
+    /*clip-path: polygon(0 0,100% 0, 100% 75%, 0 100%);*/
+    position: relative;
+    border-bottom-left-radius: 50% 5%;
+     border-bottom-right-radius: 50% 20%;
+    box-shadow: 0.1rem 0.1rem blueviolet;
+}
+
+.header__container--bg1{
     background-image: linear-gradient(
         to bottom,
         rgb(156, 136, 255, 0.4),
         rgb(40, 180, 133, 0.2)),
-        url(./hero.jpg);
-    background-size: cover;
-    background-position: left bottom;
-    clip-path: polygon(0 0,100% 0, 100% 75%, 0 100%);
-    position: relative;
+        url(./images/meditation.jpg);
+}
+
+.header__container--bg2{
+    background-image: linear-gradient(
+        to bottom,
+        rgb(156, 136, 255, 0.4),
+        rgb(40, 180, 133, 0.2)),
+        url(./images/hero.jpg);
+}
+
+.header__container--bg3{
+    background-image: linear-gradient(
+        to bottom,
+        rgb(156, 136, 255, 0.4),
+        rgb(40, 180, 133, 0.2)),
+        url(./images/hero5.jpg);
 }
 
 .header__container__text{
@@ -50,6 +72,19 @@
     .header__container__text__secundary{
         font-size: 2rem;
     }
+
+    
+    .header__container--bg1{
+
+    }
+    
+    .header__container--bg2{
+
+    }
+    
+    .header__container--bg3{
+
+    }
   }
 
   @media only screen and (max-width: 600px) {
@@ -75,26 +110,50 @@
         font-size: 2rem;
     }
 
+    
+    .header__container--bg1{
 
-    @media only screen and (max-width: 450px) {
-        .header__container{
-            background-position:80%;
-        }
+    }
     
-        .header__container__text{
-            margin: 0;
-            position: absolute;
-            left: 10%;
-            top: 10%;
-        }
+    .header__container--bg2{
+
+    }
     
-        .header__container__text__title{
-            display: block;
-            font-size: 3rem;
-        }
-        
-        .header__container__text__secundary{
-            font-size: 2rem;
-        }
+    .header__container--bg3{
+
     }
   }
+
+  @media only screen and (max-width: 450px) {
+    .header__container{
+        background-position:80%;
+    }
+
+    .header__container__text{
+        margin: 0;
+        position: absolute;
+        left: 10%;
+        top: 10%;
+    }
+
+    .header__container__text__title{
+        display: block;
+        font-size: 3rem;
+    }
+    
+    .header__container__text__secundary{
+        font-size: 2rem;
+    }
+
+    .header__container--bg1{
+        background-position: 50%;
+    }
+    
+    .header__container--bg2{
+            
+    }
+    
+    .header__container--bg3{
+        background-position: 50%;
+    }
+}

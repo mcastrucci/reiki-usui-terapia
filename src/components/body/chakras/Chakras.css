@@ -1,0 +1,122 @@
+.chakras h1{
+    color: blueviolet;
+    font-size: 6rem;
+}
+
+.chakras__section{
+    border: 1px black solid;
+    box-shadow: 5px 2px #888888;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 5rem;
+}
+
+.chakras__section h2{
+    color: black;
+    font-size: 4rem;
+    font-family: 'Merienda', cursive;
+}
+
+
+.chakras__section p{
+    font-size: 2.2rem;
+}
+
+.chakras__section__chakra__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.chakras__section__chakra__container--image{
+    width: 50%
+}
+
+/*specific sections
+*/
+
+.chakras__section--1{
+    background-color: rgb(244, 19, 33,.2);
+}
+
+.chakras__section--2{
+    background-color: rgb(254, 161, 14,.3);
+}
+
+.chakras__section--3{
+    background-color: rgb(249, 250, 11,.3);
+}
+
+.chakras__section--4{
+    background-color: rgb(138, 255, 74,.3);
+}
+
+.chakras__section--5{
+    background-color: rgb(15, 238, 255,.3);
+}
+
+.chakras__section--6{
+    background-color: rgb(42, 144, 255,.3);
+}
+.chakras__section--7{
+    background-color: rgb(169, 62, 255,.5);
+}
+
+@media only screen and (max-width: 1250px) {
+    .chakras h1{
+        font-size: 4rem;
+    }
+    
+    .chakras__section{
+        border: 1px black solid;
+        padding: 1rem;
+        margin: 0.5rem;
+        border-radius: 5rem;
+    }
+    
+    .chakras__section h2{
+        color: black;
+        font-size: 3rem;
+        font-family: 'Merienda', cursive;
+    }
+    
+    
+    .chakras__section p{
+        font-size: 1.2rem;
+    }
+    
+    
+    .chakras__section__chakra__container--image{
+        width: 30%
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .chakras h1{
+        font-size: 3rem;
+    }
+    
+    .chakras__section h2{
+        color: black;
+        font-size: 2rem;
+        font-family: 'Merienda', cursive;
+    }
+    
+    
+    .chakras__section p{
+        font-size: 1.2rem;
+    }
+    
+    .chakras__section__chakra__container{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    .chakras__section__chakra__container--image{
+        width: 40%
+    }
+}
+
