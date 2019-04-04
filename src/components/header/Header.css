@@ -33,6 +33,28 @@
         url(./images/hero5.jpg);
 }
 
+.header__container--bg4{
+    height: 80vh;
+    background-image: linear-gradient(
+        to bottom,
+        rgb(156, 136, 255, 0.4),
+        rgb(40, 180, 133, 0.2)),
+        url(./images/hero6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header__container--bg4 h1{
+    color: black;
+}
+
+.container__about{
+    position: absolute;
+    left: 30%;
+    top: 60%;
+}
+
+
 .header__container__text{
     margin: 0;
     position: absolute;

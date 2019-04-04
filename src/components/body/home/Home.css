@@ -1,0 +1,232 @@
+.home{
+    height: 100vh;
+    background-size: cover;
+    background-position: left bottom;
+    /*clip-path: polygon(0 0,100% 0, 100% 75%, 0 100%);*/
+    position: relative;
+    border-bottom-left-radius: 50% 5%;
+     border-bottom-right-radius: 50% 20%;
+    box-shadow: 0.1rem 0.1rem blueviolet;
+
+    background-image: linear-gradient(
+        to bottom,
+        rgb(156, 136, 255, 0.4),
+        rgb(40, 180, 133, 0.2)),
+        url(./images/home_background_3.jpg);
+} 
+
+.home__container{
+    border: 10px black solid;
+    position: relative;
+}
+.home__container__text{
+    margin: 0;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    font-family: 'Merienda', cursive;
+    color: white;
+
+}
+.home__container__text--title{
+    display: block;
+    font-size: 7rem;
+}
+
+
+.home__container__text--secondary{
+    font-size: 3rem;
+}
+
+.home__container__chakras__main{
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    height: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.home__container__chakras p{
+    font-family: 'Merienda', cursive;
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.home__container__chakras{
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 50%;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.home__container__chakras:hover >  img{
+    transform: rotate(360deg);
+}
+
+.home__container__chakras:hover{
+    transform: scale(1.1);
+    background-color: rgb(156, 136, 255, 0.6);
+}
+
+.home__container__chakras img:hover{
+    transform: rotate(360deg);
+}
+
+.home__container__chakras img{
+    height: 8rem;
+    margin: 0;
+    padding: 0px;
+    transition: 5s;
+}
+
+.home__container__chakras--ch1{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+
+.home__container__chakras--ch2{
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.home__container__chakras--ch3{
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.home__container__chakras--ch4{
+    grid-row: 2;
+    grid-column: 4;
+}
+
+.home__container__chakras--ch5{
+    grid-row: 1;
+    grid-column: 5;
+}
+
+.home__container__chakras--ch6{
+    grid-row: 2;
+    grid-column: 6;
+}
+
+.home__container__chakras--ch7{
+    grid-row: 1;
+    grid-column: 7;
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    .home__container__chakras__main{
+        position: absolute;
+        top: 55%;
+        width: 100%;
+    }
+
+    .home__container__chakras p{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+
+    .home__container__chakras__main{
+        top: 65%;
+    }
+
+    .home__container__text{
+        left: 10%;
+        top: 10%;
+    
+    }
+    .home__container__text--title{
+        display: block;
+        font-size: 5rem;
+    }
+    
+    
+    .home__container__text--secondary{
+        font-size: 2rem;
+    }
+
+    .home__container__chakras img{
+        height: 5rem;
+    }
+
+    .home__container__chakras p{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .home__container__chakras__main{
+        position: absolute;
+        top: 3%;
+        width: 20%;
+        height: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .home__container__chakras--ch1{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    
+    .home__container__chakras--ch2{
+        grid-row: 2;
+        grid-column: 1;
+    }
+    
+    .home__container__chakras--ch3{
+        grid-row: 3;
+        grid-column: 1;
+    }
+    
+    .home__container__chakras--ch4{
+        grid-row: 4;
+        grid-column: 1;
+    }
+    
+    .home__container__chakras--ch5{
+        grid-row: 5;
+        grid-column: 1;
+    }
+    
+    .home__container__chakras--ch6{
+        grid-row: 6;
+        grid-column: 1;
+    }
+    
+    .home__container__chakras--ch7{
+        grid-row: 7;
+        grid-column: 1;
+    }
+
+    .home__container__text--title{
+        display: block;
+        font-size: 4rem;
+    }
+    
+    
+    .home__container__text--secondary{
+        font-size: 1.5rem;
+    }
+
+    .home__container__text{
+        left: 25%;
+        top: 10%; 
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .home{
+        background-position: left 20% bottom;
+    }
+}
+

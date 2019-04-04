@@ -7,6 +7,7 @@ import Footer from '../components/footer/Footer';
 import Reiki from '../components/body/reiki/Reiki';
 import Home from '../components/body/home/Home';
 import Chakras from '../components/body/chakras/Chakras';
+import About from '../components/body/about/About';
 
 
 class App extends Component {
@@ -25,6 +26,10 @@ class App extends Component {
     const route = this.state.route;
     return (
       <div className="App">
+      {(route === 'home')?
+        <Home onRouteChange={this.onRouteChange}/>
+      :
+        <div>
           <Nav onRouteChange={this.onRouteChange}/>
           <div className="app_boddy">
             <Header route={route}/>
@@ -34,11 +39,15 @@ class App extends Component {
               <Reiki/>
               :(route === 'chakras') ?
               <Chakras/>
+              :(route === 'about')?
+              <About/>
               :<div></div>
             }
             <Footer/>
           </div>
           <SocialMedias/>
+        </div>
+      }
       </div>
     );
   }

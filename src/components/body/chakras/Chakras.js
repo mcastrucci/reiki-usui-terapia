@@ -12,7 +12,30 @@ class Chakras extends Component {
     render (){
         return (
             <div className="chakras">
-                <h1>Los Chakras</h1>
+
+                <div className="chakras__explanation">
+                    <div className="chakras__explanation--exp1">
+                        <h2>¿Que son Los chakras?</h2>
+                        <p>
+                        La palabra chakra viene del sánscrito (lengua indoeuropea que se conserva en los textos sagrados y cultos del brahmanismo escritos entre los siglos XV y X a. C. en la India) y significa círculo o disco.
+
+Estos círculos emiten ondas de energía vibrante, y dependiendo de su ubicación en el cuerpo dependerá su fuerza vibratoria y su velocidad. En la India se cree que el aire inhalado, llamada energía prana, recorre el cuerpo, dándole fuerza a estos centros de energía. La función de los chakras es recibir, acumular y distribuir el prana o energía vital, para el buen funcionamiento de nuestro cuerpo.
+
+Los chakras se describen alineados desde la base de la columna vertebral, hasta la mollera o vértex, llamada abadhuti. En este sentido, en base a la versión de los hinduistas y budistas, los chakras se cuentan de abajo para arriba en 6 zonas del cuerpo; no obstante, diversos autores occidentales consideran que hay un séptimo chakra que es el de la coronilla.
+                        </p>
+                    </div>
+                    <div className="chakras__explanation--exp2">
+                        <h2>¿Como interactuan los chakras con mi cuerpo?</h2>
+                        <p>Los chakras también están relacionados con nuestros pensamientos, sentimientos, alimentos y productos que usamos o con los cuales estamos en contacto a diario.
+
+Cuando nuestros pensamientos y sentimientos son de amor incondicional, llevamos a cabo proyectos, somos generosos, hacemos nuestro mejor esfuerzo en todo lo que hacemos, los chakras estarán trabajando adecuadamente y lo notamos en nuestra energía vital, en la calidad de sueño, nos sentimos felices, estamos tranquilos, en equilibrio emocional y espiritual.
+
+Si tenemos sentimientos y pensamientos contrarios al amor, nuestros chakras empiezan a deteriorarse, y esto lo notamos al sentirnos más intolerantes, agresivos, provocando un desbalance. Y conforme pasa el tiempo no sólo se deterioran los chakras, también la salud y las relaciones con los seres queridos.</p>
+                    </div>
+                    
+
+                    <h2>Los 7 Chakras</h2>
+                </div>
                 <div className='chakras__section chakras__section--1'>
                     <h2>Primer Chakra - Muladhara</h2>
                     <div className="chakras__section__chakra__container">

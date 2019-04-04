@@ -16,16 +16,23 @@ class Header extends Component {
             : (this.props.route === 'chakras') ?
               <div className="header__container header__container--bg2">  
               <h1 className="header__container__text">
-                <span className="header__container__text__title">Si como huevo me patea el higado</span>
-                <span class="header__container__text__secundary">Si como higado.. <br></br>Me pateara un huevo?</span>
+                <span className="header__container__text__title">Los Chakras</span>
+                <span class="header__container__text__secundary">¿Que son los chakras?<br></br>¿Como interactuan con mi cuerpo?</span>
               </h1>
             </div>
             :(this.props.route === 'reiki') ?
             <div className="header__container header__container--bg3">  
               <h1 className="header__container__text">
                 <span className="header__container__text__title">El reiki</span>
-                <span class="header__container__text__secundary">El reiki
-                 <br></br>Es Chevere.</span>
+                <span class="header__container__text__secundary">¿Que es el Reiki?
+                 <br></br>Beneficios del reiki</span>
+              </h1>
+            </div>
+            :(this.props.route === 'about') ?
+            <div className="header__container header__container--bg4">  
+              <h1 className="container__about">
+                <span className="header__container__text__title">Samanta Castrucci</span>
+                <span class="header__container__text__secundary">Un poco sobre mi</span>
               </h1>
             </div>
             :<div></div>

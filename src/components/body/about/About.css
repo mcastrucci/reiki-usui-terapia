@@ -1,0 +1,60 @@
+.about-me__explanation{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
+
+.about-me__explanation img {
+    width: 70%;
+    padding: 10%;
+    padding-left: 30%;
+}
+
+.about-me p{
+    font-size: 2rem;
+}
+
+.about-me__explanation__Text{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+}
+
+.terapy_img{
+    width: 80%
+}
+
+@media only screen and (max-width: 1200px) {
+    .about-me__explanation img {
+        width: 80%;
+        padding: 10%;
+        padding-top: 30%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .about-me__explanation{
+        display: gird;
+        grid-template-columns: 1fr; 
+    }
+
+    .about-me__explanation img {
+        width: 80%;
+        padding: 0;
+        padding-left: 10%;
+    }
+}
+@media only screen and (max-width: 750px) {
+
+
+    
+    .about-me__explanation__Text{
+        padding-left: 5%;
+        padding-right: 10%;
+        padding-top: 0%;
+    }
+    .about-me p{
+        font-size: 1.7rem;
+        line-height: 2.2rem;
+    }
+}

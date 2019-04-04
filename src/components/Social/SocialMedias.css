@@ -6,6 +6,7 @@
     top: 20%;
     z-index: 1;
     width: 4rem;
+    height: 3rem;
 }
 
 .social-medias img{
@@ -35,7 +36,7 @@
 }
 
 .social-medias__Instagram{
-    padding: 1.4rem;
+    padding: 1rem;
     background-color: #e95950;
     border-radius: 3rem;
 }
@@ -44,8 +45,6 @@
     .social-medias{
         left: 85%;
         top: 40%;
-        z-index: 1;
-        width: 4rem;
     }
     
     .social-medias img{
@@ -55,21 +54,17 @@
 
 @media only screen and (max-width: 600px) {
     .social-medias{
-        width: 2.5rem;
+        width: 3rem;
     }
     
     .social-medias img{
-        height: 2.5rem;
+        height: 3rem;
     }
 }
 
 
 @media only screen and (max-width: 450px) {
     .social-medias{
-        width: 1.5rem;
-    }
-    
-    .social-medias img{
-        height: 1.5rem;
+        left: 80%;
     }
 }

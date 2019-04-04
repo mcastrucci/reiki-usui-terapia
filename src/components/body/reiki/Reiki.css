@@ -4,13 +4,15 @@
 
 .reiki__section{
     padding: 0;
-    margin: 0;
+    margin-top: 3rem;
+    padding-left: 20%;
+    padding-right: 20%;
 } 
 
 .reiki__section h2{
     margin: 0;
     font-size: 4rem;
-    color: rgb(15, 238, 255,.3)
+    color: rgb(169, 62, 255,.5);
 } 
 
 .reiki__section p{
@@ -21,13 +23,6 @@
     margin-bottom: 2rem;
 } 
 
-.reiki__section--1 h2{
-    color: rgb(169, 62, 255,.5);
-}
-
-.reiki__section--2 h2{
-    color: rgb(42, 144, 255,.3);
-}
 
 @media only screen and (max-width: 1200px) {
     .reiki__section h2{
