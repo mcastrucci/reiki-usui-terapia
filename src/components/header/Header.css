@@ -44,6 +44,17 @@
     background-position: center;
 }
 
+.header__container--bg5{
+    height: 50vh;
+    background-image: linear-gradient(
+        to bottom,
+        rgb(156, 136, 255, 0.4),
+        rgb(40, 180, 133, 0.2)),
+        url(./images/hero3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .header__container--bg4 h1{
     color: black;
 }

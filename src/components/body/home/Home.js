@@ -14,7 +14,7 @@ class Home extends Component {
             <div className="home home__container">  
               <h1 className="home__container__text">
                 <span className="home__container__text--title">Reiki Usui Terapia</span>
-                <span class="home__container__text--secondary">Busca paz para tu mente <br></br>y obtendras salud para tu cuerpo</span>
+                <span className="home__container__text--secondary">Busca paz para tu mente <br></br>y obtendras salud para tu cuerpo</span>
               </h1>
 
               
@@ -37,13 +37,13 @@ class Home extends Component {
                     <img className="header__nav__navigator__list__div__ch-logo" src={ch4} alt="heart logo"></img>
                      <p className='ch_4'>Terapia</p>
                     </div>
-                    <div className="home__container__chakras home__container__chakras--ch5">
+                    <div className="home__container__chakras home__container__chakras--ch5" onClick={ ()=>this.props.onRouteChange('contact')}>
                     <img className="header__nav__navigator__list__div__ch-logo" src={ch5} alt="plexus logo"></img>
                         <p className='ch_5'>Contacto</p>
                     </div>
-                    <div className="home__container__chakras home__container__chakras--ch6" onClick={ ()=>this.props.onRouteChange('contact')}>
+                    <div className="home__container__chakras home__container__chakras--ch6" onClick={ ()=>this.props.onRouteChange('location')}>
                     <img className="header__nav__navigator__list__div__ch-logo" src={ch6} alt="sacro logo"></img>
-                     <p className='ch_6' onClick={ ()=>this.props.onRouteChange('location')}>ubicacion</p>
+                     <p className='ch_6'>ubicacion</p>
                      </div>
                     <div className="home__container__chakras home__container__chakras--ch7" onClick={ ()=>this.props.onRouteChange('chakras')}>
                     <img className="header__nav__navigator__list__div__ch-logo" src={ch7} alt="root logo"></img>

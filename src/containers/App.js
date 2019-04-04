@@ -8,6 +8,9 @@ import Reiki from '../components/body/reiki/Reiki';
 import Home from '../components/body/home/Home';
 import Chakras from '../components/body/chakras/Chakras';
 import About from '../components/body/about/About';
+import Contact from '../components/body/contact/Contact';
+import Location from '../components/body/location/Location';
+import Terapy from '../components/body/terapy/Terapy';
 
 
 class App extends Component {
@@ -41,6 +44,12 @@ class App extends Component {
               <Chakras/>
               :(route === 'about')?
               <About/>
+              :(route === 'contact')?
+              <Contact/>
+              :(route === 'location')?
+              <Location/>
+              :(route === 'terapy')?
+              <Terapy/>
               :<div></div>
             }
             <Footer/>

@@ -230,3 +230,17 @@
     }
 }
 
+@media only screen and (max-height: 600px) {
+    .home__container__chakras__main{
+        grid-template-rows: repeat(7, 70px);
+    }
+
+    .home__container__chakras img{
+        height: 4rem;
+    }
+
+    .home__container__chakras p{
+        font-size: 1rem;
+    }
+}
+
