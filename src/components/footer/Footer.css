@@ -2,80 +2,13 @@
     background-color: rgb(51, 46, 45);
     color: white;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 20%;
-    height: 60vh;
-}
-
-.footer__top{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-content: stretch;
-    background-color:  rgb(68, 63, 63);
-}
-
-.footer__bottom{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 20%;
-}
-
-
-.footer__top__social{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 40 50%;
-}
-
-.footer__top__social p{
-    font-size: 2rem;
-    align-self: end;
-}
-
-.footer_top__social_icons{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 15vh;
     align-content: center;
 }
 
-.footer__top__social__facebook{
-    align-self: center;
+.footer h2{
+    font-size: 1.2rem;
+    font-family: 'Merienda', cursive;
 }
 
-.footer__top__about{
-    align-self: end;
-}
-
-.footer__top__contact{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 20% 80%;
-    justify-items: center;
-}
-
-.footer__top__contact iframe{
-    outline: none;
-}
-
-.footer__botoom_author{
-    justify-self: end;
-    align-self: center;
-    padding: 5rem;
-}
-
-@media only screen and (max-width: 600px) {
-    .footer__top__social p{
-        font-size: 1rem;
-        align-self: end;
-    }
-
-    .footer_top__social_icons{
-        display: grid;
-        grid-template-columns: 5rem 5rem 5rem;
-        align-content: center;
-    }
-
-    .footer{
-        height: 50vh;
-    }
-}
