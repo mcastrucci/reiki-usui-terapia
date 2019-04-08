@@ -120,26 +120,16 @@
 */
 
 @media only screen and (max-width: 1200px) {
-
-    .home__container__chakras__main{
-        position: absolute;
-        top: 55%;
-        width: 100%;
-    }
-
     .home__container__chakras p{
         font-size: 1.5rem;
     }
 }
 
+
 @media only screen and (max-width: 750px) {
 
-    .home__container__chakras__main{
-        top: 65%;
-    }
-
     .home__container__text{
-        left: 10%;
+        left: 30%;
         top: 10%;
     
     }
@@ -154,7 +144,7 @@
     }
 
     .home__container__chakras img{
-        height: 5rem;
+        height: 6rem;
     }
 
     .home__container__chakras p{
@@ -165,47 +155,10 @@
 @media only screen and (max-width: 550px) {
     .home__container__chakras__main{
         position: absolute;
-        top: 3%;
         width: 20%;
         height: 20px;
         display: grid;
         grid-template-columns: 1fr;
-    }
-
-    .home__container__chakras--ch1{
-        grid-column: 1;
-        grid-row: 1;
-    }
-    
-    
-    .home__container__chakras--ch2{
-        grid-row: 2;
-        grid-column: 1;
-    }
-    
-    .home__container__chakras--ch3{
-        grid-row: 3;
-        grid-column: 1;
-    }
-    
-    .home__container__chakras--ch4{
-        grid-row: 4;
-        grid-column: 1;
-    }
-    
-    .home__container__chakras--ch5{
-        grid-row: 5;
-        grid-column: 1;
-    }
-    
-    .home__container__chakras--ch6{
-        grid-row: 6;
-        grid-column: 1;
-    }
-    
-    .home__container__chakras--ch7{
-        grid-row: 7;
-        grid-column: 1;
     }
 
     .home__container__text--title{
@@ -234,6 +187,21 @@
 @media only screen and (max-height: 600px) {
     .home__container__chakras__main{
         grid-template-rows: repeat(7, 70px);
+    }
+
+    .home__container__chakras img{
+        height: 4rem;
+    }
+
+    .home__container__chakras p{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-height: 500px) {
+    .home__container__chakras__main{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 70px);
     }
 
     .home__container__chakras img{

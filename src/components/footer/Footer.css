@@ -35,3 +35,9 @@
 .fa-facebook{
     background-color: #3b5998;
 }
+
+@media only screen and (max-width: 870px) {
+    .footer{
+        height: 30vh;
+    }
+}
