@@ -28,9 +28,11 @@ class Nav extends Component {
             <nav className="header__nav">
                 <MainNav onRouteChange={this.props.onRouteChange}/>
                 <div className="header__nav_icon">
-                        <img alt ='meditating nav logo' src={navigator}
-                        onClick={this.handleMouseHover}>
-                        </img>
+                        <div className="header__nav_icon--menu">
+                            <img alt ='meditating nav logo' src={navigator}
+                            onClick={this.handleMouseHover}>
+                            </img>
+                        </div>
                         {
                             this.state.isHovering &&
                             <StickyNav mouseHover={this.handleMouseHover} onRouteChange={this.props.onRouteChange}/>

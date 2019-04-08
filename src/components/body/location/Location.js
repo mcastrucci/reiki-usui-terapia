@@ -16,11 +16,16 @@ class Location extends Component {
     render(){
         return(
             <div className="location">
-                <h2>Atendemos En Boedo!</h2>
+                <h2 className="contact__title">Reiki en Capital</h2>
+                <h3>Atendemos En Boedo!</h3>
                 {//
                 //<div className="powr-map" id='944d3fb4_1554382533'></div>
                 }
-                <img src={map} alt="location"></img>
+                <div className="location__map">
+                    <a href="https://goo.gl/maps/V46XFZWuyNQ2">
+                        <img src={map} alt="location"></img>
+                    </a>
+                </div>
             </div>   
         );
     }

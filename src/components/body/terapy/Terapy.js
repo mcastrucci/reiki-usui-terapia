@@ -38,15 +38,15 @@ class Terapy extends Component {
                     Los beneficios mas notorios después de una sesión de Reiki son los
                     siguientes:</p>
                     <ul>
-                        <li>Descanso profundo.</li>
-                        <li>Disminución del estrés y la ansiedad.</li>
-                        <li> Mejora la concentración.</li>
-                        <li>Mejora el estado de ánimo y trae una mayor equilibrio emocional.</li>
-                        <li>Mejora la creatividad.</li>
-                        <li>Alivia dolores.</li>
-                        <li>Trae mayor energía física</li>
-                        <li>Mejora la capacidad para enfrentar los miedos y da otra perspectiva ante <br></br>
-                        problemas en los que antes uno no veia solución</li>
+                        <li>    Descanso profundo.</li>
+                        <li>    Disminución del estrés y la ansiedad.</li>
+                        <li>    Mejora la concentración.</li>
+                        <li>    Mejora el estado de ánimo</li>
+                        <li>    trae una mayor equilibrio emocional.</li>
+                        <li>    Mejora la creatividad.</li>
+                        <li>    Alivia dolores.</li>
+                        <li>    Trae mayor energía física</li>
+                        <li>    mejora la seguridad en uno mismo</li>
                     </ul>        
                 </div>
 

@@ -9,8 +9,13 @@
     height: 3rem;
 }
 
+.social-medias__whatsapp{
+    cursor: pointer;
+}
+
 .social-medias img{
     height: 4rem;
+    border: black solid 0.2px;
 }
 
 .social-media_button{

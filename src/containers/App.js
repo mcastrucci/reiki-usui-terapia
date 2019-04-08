@@ -28,6 +28,7 @@ class App extends Component {
 
   onRouteChange = (route) =>{
     this.setState ({route: route});
+    window.scrollTo(0, 0);
   }
 
   render() {
@@ -59,7 +60,7 @@ class App extends Component {
             }
             <Footer/>
           </div>
-          <SocialMedias/>
+          <SocialMedias onRouteChange={this.onRouteChange}/>
         </div>
       }
       </div>

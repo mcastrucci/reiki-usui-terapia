@@ -108,7 +108,7 @@
 /* Style all font awesome icons */
 .fa {
     padding: 20px;
-    font-size: 50px;
+    font-size: 5rem;
     width: 50px;
     text-align: center;
     text-decoration: none;
@@ -141,14 +141,21 @@
 .fa-envelope-o{
     background: #e95950;
     color: white;
+    border-radius: 30px;
 }
 
-.contact__social__mail{
-    font-size: 5rem;
+.fa-mobile{
+    background: #4dc247;
+    color: white;
+    border-radius: 30px;
 }
 
-.contact__social__mail{
-    font-size: 5rem;
+.contact__social__mail, .contact__social__phone{
+    font-size: 4rem;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 20% 70%;
+    justify-items: end;
 }
 
 @media only screen and (max-width: 900px) {
@@ -166,6 +173,13 @@
         align-content: center;
         background-color: rgb(192, 192, 192);
         height: 120%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .contact__social__mail, .contact__social__phone{
+        grid-template-columns: 1fr;
+        justify-items: center;
     }
 }
 

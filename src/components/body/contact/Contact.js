@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Contact.css';
-import phoneLogo from './phone_logo.png'
 import Location from '../location/Location';
 
 class Contact extends Component {
@@ -12,19 +11,18 @@ class Contact extends Component {
                 <div className="contact__contain">
                     <div className="contact__social">
                         <div className="contact__social__phone">
-                        <img src={phoneLogo} alt="phone logo"></img>
-                            <p>Podes contactarme al: 1122334455 <br></br>para reserva de turnos, cosultas y mas</p>
+                        <i className="fa fa-mobile" aria-hidden="true"></i>
+                            <p>Podes contactarme al:  (+549) 11-3450-1312 <br></br>para reserva de turnos, cosultas y mas</p>
                         </div>
                         <div className="contact__social__mail">
-                            <a href="www" className="fa fa-envelope-o"> </a>
+                            <a href="www." className="fa fa-envelope-o"> </a>
                             <p>Podes enviarme un email a <br></br>samanta.castrucci@gmail.com</p>
                         </div>
                         <div className="contact__Social_medias">
                             <p>Seguime en las redes sociales!</p>
                             <div>
-                                <a href="www" className="fa fa-facebook"> </a>
-        <                       a href="www" className="fa fa-instagram"> </a>
-        <                       a href="www" className="fa fa-whatsapp"> </a>
+                                <a href="https://www.facebook.com/samanta.castrucci" className="fa fa-facebook"> </a>
+        <                       a href="https://www.instagram.com/reikiusuiterapias/?hl=en" className="fa fa-instagram"> </a>
                             </div>
                         </div>
                     </div>

@@ -9,13 +9,13 @@ class SocialMedias extends Component {
         return(
             <div className="social-medias">
                 <div className="social-medias__facebook social-media_button">
-                    <a href="www."><img src={fbLogo} alt="Facebook logo"></img></a>
+                    <a href="https://www.facebook.com/samanta.castrucci"><img src={fbLogo} alt="Facebook logo"></img></a>
                 </div>
                 <div className="social-medias__whatsapp social-media_button">
-                <a href="www."><img src={wpLogo} alt="Whatsapp logo"></img></a>
+                <img src={wpLogo} onClick={ ()=>this.props.onRouteChange('contact')} alt="Whatsapp logo"></img>
                 </div>
                 <div className="social-medias__Instagram social-media_button">
-                <a href="www."><img src={inLogo} alt="Instagram logo"></img></a>
+                <a href="https://www.instagram.com/reikiusuiterapias/?hl=en"><img src={inLogo} alt="Instagram logo"></img></a>
                 </div>
             </div>
         );

@@ -136,6 +136,11 @@
         transition: 1s;
     }
 
+    .header__nav_icon--menu img{
+        background-color: rgb(236, 240, 241, .1);
+        border-radius: 30%;
+    }
+
     .header__nav_icon img:hover{
         transform: scale(1.1);
         background: rgb(176,34,173);

@@ -12,3 +12,26 @@
     font-family: 'Merienda', cursive;
 }
 
+.footer ul {
+    list-style: none;
+}
+
+.footer li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.footer li i{
+    font-size: 2rem;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.fa-linkedin{
+    background-color: #007bb5;
+}
+.fa-facebook{
+    background-color: #3b5998;
+}
