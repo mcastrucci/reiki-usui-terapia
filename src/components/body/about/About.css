@@ -1,27 +1,62 @@
-.about-me__explanation{
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
+.about-me strong{
+    font-size: 2rem;
 }
 
-.about-me__explanation img {
-    width: 70%;
-    padding: 10%;
-    padding-left: 30%;
+.about-me__explanation, .about-me__footer-text{
+    display: grid;
+    grid-template-columns: 40% 55%; 
+}
+
+.about-me__explanation img,  .about-me__footer-text img{
+    width: 65%;
+    padding-left: 20%;
+    padding-top: 5%;
 }
 
 .about-me p{
     font-size: 2rem;
 }
 
+
+.about-me__explanation__full-width{
+    padding-left: 3%;
+    padding-right: 3%;
+    line-height: 3.4rem;
+}
+
+.about-me__explanation__full-width blockquote{
+    font-size: 2rem;
+}
+
+.about-me__title{
+    margin-top: 2%;
+    font-size: 3rem;
+    margin-bottom: 3%;
+}
+
 .about-me__explanation__Text{
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 10%;
+    padding-left: 5%;
+    line-height: 4rem;
+}
+
+.about-me__footer-text__text{
+    line-height: 5rem;
 }
 
 .terapy_img{
     width: 80%
 }
+
+.about-me__resume{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.about-me__resume__capital{
+    font-size: 4rem;
+    color: blueviolet;
+}
+
 
 @media only screen and (max-width: 1200px) {
     .about-me__explanation img {
@@ -33,12 +68,12 @@
 
 @media only screen and (max-width: 800px) {
 
-    .about-me__explanation{
+    .about-me__explanation, .about-me__footer-text{
         display: gird;
         grid-template-columns: 1fr; 
     }
 
-    .about-me__explanation img {
+    .about-me__explanation img,  .about-me__footer-text img {
         width: 80%;
         padding: 0;
         padding-left: 10%;

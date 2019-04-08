@@ -21,21 +21,21 @@
     transform: scale(1.1);
 }
 
-.social-medias__facebook{
+.social-medias__facebook img{
     padding: 1rem;
     margin-bottom: 1rem;
     background-color: #3b5998;
     border-radius: 3rem;
 }
 
-.social-medias__whatsapp{
+.social-medias__whatsapp img{
     padding: 1rem;
     margin-bottom: 1rem;
     background-color: #4dc247;
     border-radius: 3rem;
 }
 
-.social-medias__Instagram{
+.social-medias__Instagram img{
     padding: 1rem;
     background-color: #e95950;
     border-radius: 3rem;

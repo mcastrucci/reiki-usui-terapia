@@ -14,17 +14,17 @@ class Header extends Component {
               </h1>
             </div>
             : (this.props.route === 'chakras') ?
-              <div className="header__container header__container--bg2">  
+              <div className="header__container header__container--chakras">  
               <h1 className="header__container__text">
                 <span className="header__container__text__title">Los Chakras</span>
-                <span class="header__container__text__secundary">¿Que son los chakras?<br></br>¿Como interactuan con mi cuerpo?</span>
+                <span className="header__container__text__secundary">¿Que son los chakras?<br></br>¿Como interactuan con mi cuerpo?</span>
               </h1>
             </div>
             :(this.props.route === 'reiki') ?
             <div className="header__container header__container--bg3">  
               <h1 className="header__container__text">
                 <span className="header__container__text__title">El reiki</span>
-                <span class="header__container__text__secundary">¿Que es el Reiki?
+                <span className="header__container__text__secundary">¿Que es el Reiki?
                  <br></br>Beneficios del reiki</span>
               </h1>
             </div>
@@ -32,7 +32,14 @@ class Header extends Component {
             <div className="header__container header__container--bg4">  
               <h1 className="container__about">
                 <span className="header__container__text__title">Samanta Castrucci</span>
-                <span class="header__container__text__secundary">Un poco sobre mi</span>
+                <span className="header__container__text__secundary">Un poco sobre mi</span>
+              </h1>
+            </div>
+            :(this.props.route === 'terapy') ?
+            <div className="header__container header__container--bg2">  
+              <h1 className="header__container__text--right">
+                <span className="header__container__text__title">Terapia</span>
+                <span className="header__container__text__secundary">¿En que consiste?</span>
               </h1>
             </div>
             :<div></div>

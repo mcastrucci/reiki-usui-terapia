@@ -17,8 +17,13 @@ class App extends Component {
   constructor(){
     super();
     this.state={
-      route: 'home'
+      route: 'home',
+      loaded: false
     }
+  }
+
+  componentDidMount() {
+    window.scrollTo(0, 0)
   }
 
   onRouteChange = (route) =>{

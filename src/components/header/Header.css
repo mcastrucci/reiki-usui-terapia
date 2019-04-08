@@ -9,6 +9,14 @@
     box-shadow: 0.1rem 0.1rem blueviolet;
 }
 
+.header__container--chakras{
+    background-image: linear-gradient(
+        to bottom,
+        rgb(156, 136, 255, 0.4),
+        rgb(40, 180, 133, 0.2)),
+        url(./images/hero.jpg);
+}
+
 .header__container--bg1{
     background-image: linear-gradient(
         to bottom,
@@ -20,9 +28,9 @@
 .header__container--bg2{
     background-image: linear-gradient(
         to bottom,
-        rgb(156, 136, 255, 0.4),
-        rgb(40, 180, 133, 0.2)),
-        url(./images/hero.jpg);
+        rgb(156, 136, 255, 0.5),
+        rgb(40, 180, 133, 0.1)),
+        url(./images/reiki_therapy.jpg);
 }
 
 .header__container--bg3{
@@ -75,6 +83,15 @@
     color: white;
 }
 
+.header__container__text--right{
+    margin: 0;
+    position: absolute;
+    left: 70%;
+    top: 20%;
+    font-family: 'Merienda', cursive;
+    color: white;
+}
+
 .header__container__text__title{
     display: block;
     font-size: 7rem;
@@ -90,7 +107,7 @@
         position: relative;
     }
 
-    .header__container__text{
+    .header__container__text, .header__container__text--right{
         margin: 0;
         position: absolute;
         left: 15%;
@@ -183,7 +200,7 @@
     }
     
     .header__container--bg2{
-            
+        background-position: 45% bottom;
     }
     
     .header__container--bg3{

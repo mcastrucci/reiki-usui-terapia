@@ -4,9 +4,7 @@
     background-position: left bottom;
     /*clip-path: polygon(0 0,100% 0, 100% 75%, 0 100%);*/
     position: relative;
-    border-bottom-left-radius: 50% 5%;
-     border-bottom-right-radius: 50% 20%;
-    box-shadow: 0.1rem 0.1rem blueviolet;
+
 
     background-image: linear-gradient(
         to bottom,
@@ -16,7 +14,7 @@
 } 
 
 .home__container{
-    border: 10px black solid;
+    border: 4px black solid;
     position: relative;
 }
 .home__container__text{
@@ -55,7 +53,7 @@
 }
 
 .home__container__chakras{
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .2);
     border-radius: 50%;
     transition: 1s;
     cursor: pointer;

@@ -4,40 +4,68 @@ import './Terapy.css'
 class Terapy extends Component {
     render () {
         return (
-            <div className='reiki'>
-                <div className="reiki__section reiki__section--1">
-                    <h2>¿Que es el Reiki?</h2>
+            <div className='therapy'>
+                <div className="therapy__section therapy__section--1">
+                    <h2>¿Cómo es una sesión de Reiki?</h2>
                     <p>
-                    Es una técnica milenaria japonesa de armonización integral. Reiki en sánscrito significa REI energía universal y Ki energía vital. La misma se realiza a través de la canalización y transmisión de la energía vital y universal y se utiliza para encontrar paz y equilibrio en todos los niveles. 
+                    Una sesión de Reiki puede durar aproximadamente entre cuarenta y cinco y
+                    cincuenta minutos. El paciente permanece acostado en una camilla, con los
+                    ojos cerrados, descalzo y vestido. Durante la sesión se utiliza música relajante
+                    y distintos aromas para ayudar a entrar en clima.
+                    Antes de comenzar la sesión se mantiene una breve conversación para
+                    entender la realidad actual del paciente.
+                    Una vez terminada la charla, se recuesta sobre la camilla descalzo y con los
+                    ojos cerrados. Se procede hacer un barrido del campo energético para así
+                    comprender las sensaciones energéticas que derivan de cada uno de los
+                    chakras.
 
-                    Nivel físico: mejora las dolencias, lesiones y metabolismo.
-                    Nivel emocional: mejora los problemas sentimentales, culpas, agresividad, infelicidad.
-                    Nivel Mental: cambia los hábitos dañinos, calma el estrés y el insomnio.
-                    Nivel espiritual: nos da paz, armonía y equilibrio. 
+                    Iniciado el tratamiento se colocan las manos sobre una serie de ubicaciones en
+                    el cuerpo y la Energía Reiki fluye.
+                    Durante la sesión, se puede sentir una relajación profunda, la sensación de
+                    estar en paz. Hay personas que pueden quedarse dormidas, algo
+                    perfectamente normal que no influye en el resultado final. Otras personas
+                    pueden sentir cosquilleos, cambios en la temperatura corporal según el fluir de
+                    la energía. Hay otras que ven colores, recuerdos o se sienten de flotar. Muchas
+                    veces se pueden experimentar distintas emociones como reír o llorar. O
+                    simplemente no sentir nada, lo que no quiere decir que la energía Reiki no este
+                    funcionando. Simplemente que la forma de experimentar de cada uno es
+                    personal.
                     </p>
                 </div>
-                <div className="reiki__section reiki__section--2">
-                    <h2>¿Qué genera el Reiki en nuestro cuerpo?</h2>
+                <div className="therapy__section therapy__section--2">
+                    <h2>¿Cuales son los beneficios de esta terapia?</h2>
                     <p>
-                        Reiki produce un estado de profunda relajación y alegría interior en una forma sencilla, amorosa y totalmente natural; simplemente ocurre. La armonización es tarea que no tiene edades, es para sanos y enfermos, es para aquellos que tienen heridas en el alma o que simplemente quieren estar bien.
-
-                        Una persona armonizada es una persona que difícilmente se enferma y si se enferma se recupera rápidamente; es una persona equilibrada. Y a eso tiende el tratamiento de Reiki: la armonía integral de la persona, a nivel físico, mental, emocional y espiritual.
-
-                    </p>
+                    Los beneficios mas notorios después de una sesión de Reiki son los
+                    siguientes:</p>
+                    <ul>
+                        <li>Descanso profundo.</li>
+                        <li>Disminución del estrés y la ansiedad.</li>
+                        <li> Mejora la concentración.</li>
+                        <li>Mejora el estado de ánimo y trae una mayor equilibrio emocional.</li>
+                        <li>Mejora la creatividad.</li>
+                        <li>Alivia dolores.</li>
+                        <li>Trae mayor energía física</li>
+                        <li>Mejora la capacidad para enfrentar los miedos y da otra perspectiva ante <br></br>
+                        problemas en los que antes uno no veia solución</li>
+                    </ul>        
                 </div>
-                <div className="reiki__section reiki__section--3">
-                    <h2>El Reiki y los chakras.</h2>
+
+                <div className="therapy__section therapy__section--2">
+                    <h2>¿Cuantas sesiones necesito para mejorar?</h2>
                     <p>
-                    La ubicacion de los chakras en el cuerpo etérico  corresponde a la localización de las glándulas endocrinas en el cuerpo físico.
-
-                    Ambos cuerpos se conectan a través de la corriente de energía. El cuerpo etérico absorbe niveles muy finos de energía del ambiente y traspasa esa energía a través de los chakras al cuerpo físico, por medio de las glándulas endocrinas.
-                    El sistema endocrino controla el equilibrio hormonal del cuerpo y tiene un efecto directo sobre las emociones.  Así podemos decir que si el sistema de chakras está en desequilibrio también lo estará el sistema endocrino.
-
-                    En caso de enfermedad o desequilibrio emocional estos centros energéticos pueden quedar bloqueados.  Con el reiki podemos trabajar para devolverles el equilibrio y para armonizar el cuerpo etérico o energético. 
-
-                    Cada uno de los chakras tiene una función específica que corresponde a diferentes tipos de emociones. Todos los chakras son de igual importancia, de tal manera que si uno está en desequilibrio todos los demás, en mayor o menor manera, también lo estarán.
+                        Sí bien desde la primera sesión ya podemos percibir los cambios y las
+                        sensaciones lo ideal para lograr un equilibrio total son cuatro sesiones que
+                        se suelen dar una vez por semana.
                     </p>
+  
                 </div>
+
+                <blockquote>
+                El REIKI ha sido reconocido por la Organización Mundial de la Salud
+                (OMS) como una terapia complementaria de sanación.
+                Hay que aclarar que bajo ningún punto de vista el Reiki puede
+                remplazar un tratamiento medico.
+                </blockquote>
             </div>
         );
     }

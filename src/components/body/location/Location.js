@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Location.css';
+import map from './map.JPG'
 
 
 class Location extends Component {
@@ -16,7 +17,10 @@ class Location extends Component {
         return(
             <div className="location">
                 <h2>Atendemos En Boedo!</h2>
-                <div className="powr-map" id='944d3fb4_1554382533'></div>
+                {//
+                //<div className="powr-map" id='944d3fb4_1554382533'></div>
+                }
+                <img src={map} alt="location"></img>
             </div>   
         );
     }

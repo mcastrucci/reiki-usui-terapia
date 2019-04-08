@@ -1,21 +1,50 @@
-.reiki{
+.therapy{
 
 }
 
-.reiki__section{
+
+.therapy ul {
+    font-size: 4rem;
+    list-style: none;
+    margin: 2em;
+    font-family: 'Merienda', cursive;
+    padding: 0;
+  }
+
+
+.therapy li {
+    margin: 0;
+    margin-bottom: 1em;
+    position: relative;
+    font-size: 2rem;
+}
+
+.therapy li:after {
+    content: '';
+    height: .4em;
+    width: .4em;
+    background: blueviolet;
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    top: .25em;
+    left: 0;
+  }
+
+.therapy__section{
     padding: 0;
     margin-top: 3rem;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 3%;
+    padding-right: 3%;
 } 
 
-.reiki__section h2{
+.therapy__section h2{
     margin: 0;
     font-size: 4rem;
     color: rgb(169, 62, 255,.5);
 } 
 
-.reiki__section p{
+.therapy__section p{
     font-size: 2.2rem;
     margin: 0;
     line-height: 200%;
@@ -25,23 +54,38 @@
 
 
 @media only screen and (max-width: 1200px) {
-    .reiki__section h2{
+    .therapy__section h2{
         font-size: 3rem;
     } 
     
-    .reiki__section p{
+    .therapy__section p{
         font-size: 1.5em;
         line-height: 200%;
     } 
 }
 
 @media only screen and (max-width: 600px) {
-    .reiki__section h2{
+    .therapy__section h2{
         font-size: 1.8rem;
     } 
     
-    .reiki__section p{
+    .therapy__section p{
         font-size: 1.5rem;
         line-height: 100%;
     } 
+
+    .therapy ul {
+        font-size: 2rem;
+        list-style: none;
+        margin: 2em;
+        font-family: 'Merienda', cursive;
+        padding: 0;
+      }
+
+      .therapy li {
+        margin: 0;
+        margin-bottom: 1em;
+        position: relative;
+        font-size: 1.2rem;
+    }
 }
