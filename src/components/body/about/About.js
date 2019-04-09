@@ -14,7 +14,7 @@ class About extends Component {
             <div className="about-me">
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <html lang="es" amp />
+                    <html lang="es"/>
                     <title>Reiki Usui Terapia - Conoceme</title>
                     <meta name="description" content="Mi nombre es Samanta Castrucci, tengo 31 años, y soy una enamorada de la vida. Terapeuta holistica. maestra de Reiki Usui y Karuna. Flores de Bach, aromaterapia, gemoterapia y rocíos auricos. Actualmente soy estudiante de Hatha Yoga y estoy comenzando a recorrer el hermoso camino de los Registros Akashicos." />
                 </Helmet>

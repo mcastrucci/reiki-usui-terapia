@@ -21,7 +21,7 @@ class Location extends Component {
             <div className="location">
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <html lang="es" amp />
+                    <html lang="es"/>
                     <title>Reiki Usui Terapia - ubicacion</title>
                     <meta name="description" content="Reiki en Capital federal, Reiki en Boedo. Reiki Usui Terapia ¿donde atendemos? ¿Donde hacer Reiki?" />
                 </Helmet>

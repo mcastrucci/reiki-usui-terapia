@@ -20,7 +20,7 @@ class Chakras extends Component {
             <div className="chakras">
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <html lang="es" amp />
+                    <html lang="es"/>
                     <title>Reiki Usui Terapia - Chakras</title>
                     <meta name="description" content="Terapia Reiki en Capital federal, Terapia Reiki en Boedo. ¿Que son los chakras? Los chakras y el cuerpo. ¿Como abrir los Chakras?" />
                 </Helmet>

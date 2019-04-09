@@ -12,7 +12,7 @@ class Terapy extends Component {
             <div className='therapy'>
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <html lang="es" amp />
+                    <html lang="es"/>
                     <title>Reiki Usui Terapia - Terapia</title>
                     <meta name="description" content="Terapia Reiki en Capital federal, Terapia Reiki en Boedo. ¿Como es una sesion de Reiki? ¿Cuantas sesiones de Reiki necesito?" />
                 </Helmet>

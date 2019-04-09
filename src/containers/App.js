@@ -45,8 +45,9 @@ class App extends Component {
       <div className="App">
       <Helmet>
           <meta charSet="utf-8" />
-          <html lang="es" amp />
+          <html lang="es"/>
           <title>Reiki Usui Terapia - Reiki en capital Federal</title>
+          <link rel="canonical" href="http://www.reikiusuiterapia.com/home" />
           <meta name="description" content="Reiki en Capital federal, boedo. Terapia, informacion y mucho mas! ¿Que es el Reiki? ¿Que le hace el Reiki a nuestro Cuerpo?, ¿Como puede el Reiki Ayudarme?, ¿Que son los chakras?" />
       </Helmet>
       {(route === 'home')?

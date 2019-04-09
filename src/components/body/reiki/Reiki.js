@@ -12,7 +12,7 @@ class Reiki extends Component {
             <div className='reiki'>
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <html lang="es" amp />
+                    <html lang="es"/>
                     <title>Reiki Usui Terapia - Reiki</title>
                     <meta name="description" content="Reiki en Capital federal,Reiki en Boedo. ¿Que es el Reiki? ¿Que genera el Reiki en mi cuerpo? El reiki y los charkas" />
                 </Helmet>

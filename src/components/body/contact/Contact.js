@@ -15,7 +15,7 @@ class Contact extends Component {
             <form className="contact">
                   <Helmet>
                     <meta charSet="utf-8" />
-                    <html lang="es" amp />
+                    <html lang="es"/>
                     <title>Reiki Usui Terapia - Contacto</title>
                     <meta name="description" content="Reiki en Capital federal, boedo. contactame por turnos, terapias registros akashicos y mas!" />
                 </Helmet>
