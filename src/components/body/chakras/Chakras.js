@@ -7,12 +7,23 @@ import ch4_image from './images/ch4_background.png';
 import ch5_image from './images/ch5_background.png';
 import ch6_image from './images/ch6_background.png';
 import ch7_image from './images/ch7_background.png';
+import ReactGA from 'react-ga';
+import {Helmet} from "react-helmet";
 
 class Chakras extends Component {
+
+    componentDidMount(){
+        ReactGA.pageview('/chakras');
+    }
     render (){
         return (
             <div className="chakras">
-
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <html lang="es" amp />
+                    <title>Reiki Usui Terapia - Chakras</title>
+                    <meta name="description" content="Terapia Reiki en Capital federal, Terapia Reiki en Boedo. ¿Que son los chakras? Los chakras y el cuerpo. ¿Como abrir los Chakras?" />
+                </Helmet>
                 <div className="chakras__explanation">
                     <div className="chakras__explanation--exp1">
                         <h2>¿Que son Los chakras?</h2>

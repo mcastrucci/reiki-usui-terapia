@@ -11,6 +11,8 @@ import About from '../components/body/about/About';
 import Contact from '../components/body/contact/Contact';
 import Location from '../components/body/location/Location';
 import Terapy from '../components/body/terapy/Terapy';
+import ReactGA from 'react-ga';
+import {Helmet} from "react-helmet";
 
 
 class App extends Component {
@@ -23,8 +25,14 @@ class App extends Component {
   }
 
   componentDidMount() {
-    window.scrollTo(0, 0)
+    document.title = "Reiki-usui-terapia";
+    window.scrollTo(0, 0);
+    ReactGA.event({
+      category: 'screen changes',
+      action: this.state.route
+    });
   }
+  
 
   onRouteChange = (route) =>{
     this.setState ({route: route});
@@ -35,6 +43,12 @@ class App extends Component {
     const route = this.state.route;
     return (
       <div className="App">
+      <Helmet>
+          <meta charSet="utf-8" />
+          <html lang="es" amp />
+          <title>Reiki Usui Terapia - Reiki en capital Federal</title>
+          <meta name="description" content="Reiki en Capital federal, boedo. Terapia, informacion y mucho mas! ¿Que es el Reiki? ¿Que le hace el Reiki a nuestro Cuerpo?, ¿Como puede el Reiki Ayudarme?, ¿Que son los chakras?" />
+      </Helmet>
       {(route === 'home')?
         <Home onRouteChange={this.onRouteChange}/>
       :

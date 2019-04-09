@@ -1,10 +1,21 @@
 import React, { Component } from 'react';
-import './Reiki.css'
+import './Reiki.css';
+import ReactGA from 'react-ga';
+import {Helmet} from "react-helmet";
 
 class Reiki extends Component {
+    componentDidMount(){
+        ReactGA.pageview('/reiki');
+    }
     render () {
         return (
             <div className='reiki'>
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <html lang="es" amp />
+                    <title>Reiki Usui Terapia - Reiki</title>
+                    <meta name="description" content="Reiki en Capital federal,Reiki en Boedo. ¿Que es el Reiki? ¿Que genera el Reiki en mi cuerpo? El reiki y los charkas" />
+                </Helmet>
                 <div className="reiki__section reiki__section--1">
                     <h2>¿Que es el Reiki?</h2>
                     <p>

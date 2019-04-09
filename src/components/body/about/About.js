@@ -2,11 +2,22 @@ import React, { Component } from 'react';
 import './About.css'
 import picture from './samita.jpg'
 import terapia from './terapia.PNG'
+import ReactGA from 'react-ga';
+import {Helmet} from "react-helmet";
 
 class About extends Component {
+    componentDidMount(){
+        ReactGA.pageview('/about');
+    }
     render(){
         return (
             <div className="about-me">
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <html lang="es" amp />
+                    <title>Reiki Usui Terapia - Conoceme</title>
+                    <meta name="description" content="Mi nombre es Samanta Castrucci, tengo 31 años, y soy una enamorada de la vida. Terapeuta holistica. maestra de Reiki Usui y Karuna. Flores de Bach, aromaterapia, gemoterapia y rocíos auricos. Actualmente soy estudiante de Hatha Yoga y estoy comenzando a recorrer el hermoso camino de los Registros Akashicos." />
+                </Helmet>
                 <p className="about-me__resume">
                     <span className="about-me__resume__capital">M</span>i nombre es Samanta Castrucci, tengo 31 años, y soy una enamorada de la vida. Terapeuta holistica. maestra de Reiki Usui y Karuna. Flores de Bach, aromaterapia, gemoterapia y rocíos auricos. 
                     Actualmente soy estudiante de Hatha Yoga y estoy comenzando a recorrer el hermoso camino de los Registros Akashicos.

@@ -1,12 +1,24 @@
 import React, { Component } from 'react';
 import './Contact.css';
 import Location from '../location/Location';
+import ReactGA from 'react-ga';
+import {Helmet} from "react-helmet";
 
 class Contact extends Component {
+
+    componentDidMount(){
+        ReactGA.pageview('/contact');
+    }
 
     render(){
         return(
             <form className="contact">
+                  <Helmet>
+                    <meta charSet="utf-8" />
+                    <html lang="es" amp />
+                    <title>Reiki Usui Terapia - Contacto</title>
+                    <meta name="description" content="Reiki en Capital federal, boedo. contactame por turnos, terapias registros akashicos y mas!" />
+                </Helmet>
                 <h2 className="contact__title">Contactame!</h2>
                 <div className="contact__contain">
                     <div className="contact__social">
