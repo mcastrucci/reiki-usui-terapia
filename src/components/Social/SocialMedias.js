@@ -6,7 +6,7 @@ class SocialMedias extends Component {
         return(
             <div className="social-medias">
                 <div className="social-medias__facebook social-media_button">
-                    <a href="https://www.facebook.com/samanta.castrucci" className="fa fa-facebook"> </a>
+                    <a href="https://www.facebook.com/reikiusuiterapiass/" className="fa fa-facebook"> </a>
                 </div>
                 <div className="social-medias__whatsapp social-media_button fa fa-whatsapp" onClick={ ()=>this.props.onRouteChange('contact')}>
                 </div>

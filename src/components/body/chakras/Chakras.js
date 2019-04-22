@@ -28,20 +28,16 @@ class Chakras extends Component {
                     <div className="chakras__explanation--exp1">
                         <h2>¿Que son Los chakras?</h2>
                         <p>
-                        La palabra chakra viene del sánscrito (lengua indoeuropea que se conserva en los textos sagrados y cultos del brahmanismo escritos entre los siglos XV y X a. C. en la India) y significa círculo o disco.
-
-Estos círculos emiten ondas de energía vibrante, y dependiendo de su ubicación en el cuerpo dependerá su fuerza vibratoria y su velocidad. En la India se cree que el aire inhalado, llamada energía prana, recorre el cuerpo, dándole fuerza a estos centros de energía. La función de los chakras es recibir, acumular y distribuir el prana o energía vital, para el buen funcionamiento de nuestro cuerpo.
-
-Los chakras se describen alineados desde la base de la columna vertebral, hasta la mollera o vértex, llamada abadhuti. En este sentido, en base a la versión de los hinduistas y budistas, los chakras se cuentan de abajo para arriba en 6 zonas del cuerpo; no obstante, diversos autores occidentales consideran que hay un séptimo chakra que es el de la coronilla.
+                        En sánscrito chakra se traduce literalmente como “rueda” o “disco”. Este término hace referencia a las ruedas de energía en todo tu cuerpo.
+                        Existen siete chakras principales, que forman una línea en la columna, comenzando en la base de la columna hasta llegar a la coronilla. Para visualizar un chakra en el cuerpo, imagina una rueda de energía en movimiento donde se unen la materia y la conciencia. Esta energía invisible, llamada Prana, es la fuerza vital que nos mantiene vivos, saludables y vibrantes.
                         </p>
                     </div>
                     <div className="chakras__explanation--exp2">
-                        <h2>¿Como interactuan los chakras con mi cuerpo?</h2>
-                        <p>Los chakras también están relacionados con nuestros pensamientos, sentimientos, alimentos y productos que usamos o con los cuales estamos en contacto a diario.
-
-Cuando nuestros pensamientos y sentimientos son de amor incondicional, llevamos a cabo proyectos, somos generosos, hacemos nuestro mejor esfuerzo en todo lo que hacemos, los chakras estarán trabajando adecuadamente y lo notamos en nuestra energía vital, en la calidad de sueño, nos sentimos felices, estamos tranquilos, en equilibrio emocional y espiritual.
-
-Si tenemos sentimientos y pensamientos contrarios al amor, nuestros chakras empiezan a deteriorarse, y esto lo notamos al sentirnos más intolerantes, agresivos, provocando un desbalance. Y conforme pasa el tiempo no sólo se deterioran los chakras, también la salud y las relaciones con los seres queridos.</p>
+                        <h2>La importancia de los chakras principales en el cuerpo</h2>
+                        <p>
+                        Estas ruedas de energía en movimiento corresponden a grandes centros nerviosos en el cuerpo. Cada uno de los siete chakras principales está ligado a nervios y órganos importantes, así como nuestro estado psicológico, emocional y espiritual. Como todo en el sistema de energía mente-cuerpo está en movimiento, es esencial que los siete chakra estén abiertos, alineados y fluyan en armonía. Si hay un bloqueo, la energía no puede fluir. Lo que genera que la energía se estanque y continúe su recorrido.
+                        Mantener un chakra abierto no es tan difícil cuando se tiene conciencia. Dado que la mente, el cuerpo, el alma y el espíritu están íntimamente conectados, la conciencia de un desequilibrio en un área ayudará a que las demás vuelvan a equilibrarse.           
+                        </p>
                     </div>
                     
 

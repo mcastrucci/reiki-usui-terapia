@@ -42,6 +42,12 @@ class Header extends Component {
                 <span className="header__container__text__secundary">¿En que consiste?</span>
               </h1>
             </div>
+            :(this.props.route === 'location') ?
+            <div className="header__container header__container--location">  
+              <h1 className="header__container__text">
+                <span className="header__container__text__title">Donde encontrarme?</span>
+              </h1>
+            </div>
             :<div></div>
           }
 

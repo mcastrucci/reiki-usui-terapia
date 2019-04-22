@@ -17,6 +17,21 @@
         url(./images/hero.jpg);
 }
 
+.header__container--location{
+    background-image: linear-gradient(
+        to bottom,
+        rgb(156, 136, 255, 0.4),
+        rgb(40, 180, 133, 0.2)),
+        url(./images/locationImage.jpg); 
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        height: 60vh;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+        box-shadow: none;
+}
+
+
 .header__container--bg1{
     background-image: linear-gradient(
         to bottom,
@@ -92,7 +107,6 @@
 
 @media only screen and (max-width: 1250px) {
     .header__container{
-        clip-path: polygon(0 0,100% 0, 100% 75%, 0 100%);
         position: relative;
     }
 

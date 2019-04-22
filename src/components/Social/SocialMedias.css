@@ -31,6 +31,22 @@
     height: 3rem;
 }
 
+.fa{
+    color: white;
+}
+
+.fa-facebook{
+    background-color: #3b5998;
+}
+
+.fa-whatsapp{
+    background-color: #4dc247;
+}
+
+.fa-instagram {
+    background-color: #e95950;
+}
+
 
 @media only screen and (max-width: 600px) {
     .social-medias{

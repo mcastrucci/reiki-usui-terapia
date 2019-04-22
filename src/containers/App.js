@@ -75,7 +75,12 @@ class App extends Component {
             }
             <Footer/>
           </div>
+          {
+          (route === 'contact')?
+            <div></div>
+          :
           <SocialMedias onRouteChange={this.onRouteChange}/>
+          }
         </div>
       }
       </div>

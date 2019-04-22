@@ -1,3 +1,4 @@
+
 .location h3{
     font-size: 4rem;
 }
@@ -8,14 +9,14 @@
 
 
 .location img{
-    width: 90%;
+    width: 80%;
     padding-right: 10%;
     padding-left: 5%;
     margin-bottom: 5%;
 }
 
 .location .contact__title{
-    padding-top: 10%;
+    padding-top: 6%;
     font-size: 5rem;
 }
 

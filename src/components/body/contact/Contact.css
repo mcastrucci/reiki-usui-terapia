@@ -2,7 +2,7 @@
 
 
 .contact {
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(232, 232, 227);
     margin: 0;
     padding: 0;
 }
@@ -15,7 +15,7 @@
 
 .contact__contain{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 0.5fr 1.5fr;
     align-content: center;
     
 }
@@ -24,10 +24,6 @@
     font-size: 8rem;
 }
 
-.contact form { 
-    max-width:420px; 
-    margin:50px auto; 
-}
 
 .contact__form h2{ 
     font-size: 2rem;
@@ -35,39 +31,42 @@
 
 
 .contact__form{
-    padding: 10%;
-    margin-bottom: 20%;
-    margin-right: 10%;
-    border-radius: 10%;
-    border: 2px black solid;
+    padding: 2%;
     box-shadow: 5px 2px #888888;
+    background-color: #2f3542;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-family: 'Merienda', cursive;
+    color: rgb(134, 134, 134);
+    height: 110%;
+}
+
+.contact__form__top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact__form__top--fields{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .contact__feedback-input {
   color:white;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight:500;
-  font-size: 18px;
-  border-radius: 5px;
-  line-height: 22px;
+  font-size: 1.5rem;
   background-color: transparent;
-  border:2px solid #CC6666;
+  border:2px solid gray;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
   width:100%;
+  height: 50%;
   box-sizing: border-box;
   outline:0;
-}
-
-.contact__social p {
-    font-size: 2.5rem;
-    padding: 1rem;
-    display: inline-block
-}
-
-.contact__social__phone img{
-    height: 6rem;
 }
 
 .contact__feedback-input::placeholder {
@@ -99,9 +98,66 @@
 }
 [type="submit"]:hover { background:#CC4949; }
 
+/*social part */
+.contact__social {
+    border: 1px black solid;
+    width: 100%;
+    justify-self: end;
+    
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 30%;
+    background-color: rgb(217, 214, 205);
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 110%; 
+    box-shadow: 0px 0px 5px 5px #888888; 
+}
+
+.contact__social__chanels{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr;
+}
+
+.contact__social__chanel{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.contact__social__chanel--name{
+    font-size: 2rem;
+}
+
+.contact__social__chanel a{
+    justify-self: start;
+    font-size: 2rem;
+}
+
+.contact__social__chanel i{
+    align-self: center;
+    justify-self: center;
+}
+
+.contact__social p {
+    font-size: 2.5rem;
+    padding: 1rem;
+    display: inline-block;
+}
+
+
 .contact__Social_medias a{
     font-size: 30px;
 }
+
+.contact__Social_medias{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+
 
 /*fa icons*/
 
@@ -121,58 +177,51 @@
   
   /* Set a specific color for each brand */
   
-  /* Facebook */
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
+  .contact .fa-envelope-o, .contact .fa-mobile{
+    background: rgb(175, 161, 140);
+    border-radius: 100%;
+    font-size: 3rem;
   }
+
+  .contact .fa-facebook{
+
+  }
+
+  .contact .fa-instagram {
+
+  }
+
   
-  /* Twitter */
-  .fa-instagram {
-    background: #e95950;
-    color: white;
-}
-
-.fa-whatsapp {
-    background: #4dc247;
-    color: white;
-}
-
-.fa-envelope-o{
-    background: #e95950;
-    color: white;
-    border-radius: 30px;
-}
-
-.fa-mobile{
-    background: #4dc247;
-    color: white;
-    border-radius: 30px;
-}
 
 .contact__social__mail, .contact__social__phone{
     font-size: 4rem;
     align-items: center;
-    display: grid;
-    grid-template-columns: 20% 70%;
     justify-items: end;
 }
 
 @media only screen and (max-width: 900px) {
-    .contact__form { 
-        width: 70%;
-        height: 30%;
-        margin-left: 5%;
-        margin-top: 10%;
-    }
 
     .contact__contain {
         display: block;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         align-content: center;
-        background-color: rgb(192, 192, 192);
         height: 120%;
+    }
+
+    /*social part */
+    .contact__social {
+        border: 1px black solid;
+        width: 98%;
+        justify-self: end;
+        
+        border-top-left-radius: 0%;
+        border-bottom-left-radius: 0%;
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 110%; 
+        box-shadow: 0px 0px 5px 5px #888888; 
+        margin-top: 10%;
     }
 }
 
@@ -184,21 +233,29 @@
 }
 
 @media only screen and (max-width: 500px) {
-    .contact__form { 
-        height: 35%;
-        width: 70%;
-    }
 
-    .contact {
-        display: block;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        align-content: center;
-        background-color: rgb(192, 192, 192);
-    }
 
     .contact__title{
         font-size: 4rem;
     }
+
+    .fa {
+        padding: 20px;
+        font-size: 5rem;
+        width: 20px;
+      }
+      
+      
+      /* Set a specific color for each brand */
+      
+      .contact .fa-envelope-o, .contact .fa-mobile{
+        font-size: 2rem;
+      }
+
+      .contact__social__chanel{
+        grid-template-columns: 1fr 4fr;
+    }
+
+    .contact__Social_medias{}
 }
 
