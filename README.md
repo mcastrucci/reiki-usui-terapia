@@ -1,5 +1,13 @@
 This page was deployed -> http://www.reikiusuiterapia.com/
 
+a React App with beautiful Frontend.
+
+
+![image](https://user-images.githubusercontent.com/33734490/87970437-2273a500-ca9a-11ea-9406-e4d0a1c2de79.png)
+
+![image](https://user-images.githubusercontent.com/33734490/87970474-30c1c100-ca9a-11ea-87e1-f4a02d81452b.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
